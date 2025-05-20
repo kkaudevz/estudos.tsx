@@ -1,0 +1,33 @@
+.pesquisar {
+  background-color: #3a0058;
+  padding: 2rem;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pesquisar p {
+  color: #c760fa;
+}
+
+.container_pesquisar {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.container_pesquisar input,
+.container_pesquisar button {
+  padding: 0.6rem;
+  border-radius: 3rem;
+  border: none;
+  color: #2b3566;
+}
+
+.container_pesquisar button {
+  background-color: #200030;
+  cursor: pointer;
+}
